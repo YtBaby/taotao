@@ -2,8 +2,9 @@ package com.taotao.dao;
 
 import com.taotao.pojo.TbItemDesc;
 import com.taotao.pojo.TbItemDescExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface TbItemDescMapper {
     long countByExample(TbItemDescExample example);
